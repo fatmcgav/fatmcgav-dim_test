@@ -1,0 +1,18 @@
+---
+# Common test data
+
+# Required glassfish resources
+resources:
+  systemproperty:
+    'config.networked.isam.rack.enabled':
+      value: 'true'
+    'config.networked.isam.rack.url':
+      value: 'http://ncr:8181/cxf/ncr/v1'
+    'message.import.directory':
+      value: "%{remotepost::rps_home_dir}/XMLImport" 
+    'message.export.directory':
+      value: "%{remotepost::rps_home_dir}/XMLExport" 
+    'config.incoming.message.seconds':
+      value: '60000'
+    'config.outgoing.message.seconds':
+      value: '60000'

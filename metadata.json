@@ -1,0 +1,16 @@
+{
+  "name": "fatmcgav-dim_test",
+  "version": "0.1.0",
+  "author": "fatmcgav",
+  "summary": "Data In Module test module",
+  "license": "Apache 2.0",
+  "source": "https://github.com/fatmcgav/fatmcgav-dim_test",
+  "project_page": "https://github.com/fatmcgav/fatmcgav-dim_test",
+  "issues_url": "https://github.com/fatmcgav/fatmcgav-dim_test/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ]
+}
