@@ -14,7 +14,7 @@ class dim_test {
 
   # Output value
   file { '/tmp/hash.txt':
-    content => $value,
+    content => sorted_json($value),
     mode    => '0644'
   }
 
