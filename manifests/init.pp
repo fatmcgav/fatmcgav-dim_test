@@ -10,7 +10,7 @@
 class dim_test {
 
   # Get value from hiera with module_data aswell
-  $value = hiera_hash('resources')
+  $value = hiera_hash('dim_resources')
 
   # Output value
   file { '/tmp/hash.txt':
