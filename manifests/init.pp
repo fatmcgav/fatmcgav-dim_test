@@ -10,11 +10,11 @@
 class dim_test {
 
   # Get value from hiera with module_data aswell
-  $value = hiera_hash('dim_resources')
+  $value = hiera('file_contents', 'empty')
 
   # Output value
   file { '/tmp/hash.txt':
-    content => sorted_json($value),
+    content => $value,
     mode    => '0644'
   }
 

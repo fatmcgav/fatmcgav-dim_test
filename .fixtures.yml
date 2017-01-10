@@ -1,5 +1,6 @@
 fixtures:
   repositories:
     stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    module_data: "https://github.com/ripienaar/puppet-module-data.git"  
   symlinks:
     dim_test: "#{source_dir}"

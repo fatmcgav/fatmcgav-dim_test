@@ -1,14 +1,4 @@
 ---
 # Common test data
 
-# Required glassfish resources
-dim_resources:
-  systemproperty:
-    'config.networked.isam.rack.enabled':
-      value: 'true'
-    'config.networked.isam.rack.url':
-      value: 'http://ncr:8181/cxf/ncr/v1'
-    'config.incoming.message.seconds':
-      value: '60000'
-    'config.outgoing.message.seconds':
-      value: '60000'
+file_contents: 'this is data-in-module file contents'
