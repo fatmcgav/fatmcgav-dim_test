@@ -2,5 +2,6 @@ fixtures:
   repositories:
     stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
     module_data: "https://github.com/ripienaar/puppet-module-data.git"  
+    dim_test_child: "https://github.com/fatmcgav/dim_test-child.git"
   symlinks:
     dim_test: "#{source_dir}"
