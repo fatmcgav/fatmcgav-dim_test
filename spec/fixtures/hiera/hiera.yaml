@@ -1,7 +1,7 @@
 ---
 :backends:
   - yaml
-  - module_data
+  # - module_data
 :yaml:
   :datadir: spec/fixtures/hiera/hieradata
 :hierarchy:
