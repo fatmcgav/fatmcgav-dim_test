@@ -14,6 +14,7 @@ describe 'dim_test' do
 
         it { should compile.with_all_deps }
 
+        it { should contain_file('/tmp/hash.txt').with_content('this is a data-in-module file contents') }
         it { should contain_file('/tmp/hash.txt').with_content(file_contents) }
 
       end
