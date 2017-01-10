@@ -1,4 +1,5 @@
 ---
 # Common test data
+dim_test::filename: 'test'
 
 file_contents: 'this is data-in-module file contents'
